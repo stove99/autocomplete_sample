@@ -13,9 +13,15 @@
     <h1>자동완성 샘플</h1>
     <p>Ada, Java, JavaScript, Brainfuck, LOLCODE, Node.js, Ruby on Rails, 컴퓨터, 냉장고, 에어컨, 키보드, 마우스, 책상, 케이스, 화장지, 프린터, 의자, 윈도우, A1 용지, 종이박스</p>
 
-    <input class="awesomplete" list="mylist" data-minchars="1" data-autofirst="true"/>
+    <ol>
+        <li>input 에 awesomplete 클래스 추가</li>
+        <li>input list attribute 에 대상 목록 id 지정</li>
+        <li>datalist 작성</li>
+    </ol>
 
-    <datalist id="mylist">
+    <input class="awesomplete" list="target_list" data-minchars="1" data-autofirst="true"/>
+
+    <datalist id="target_list">
         <option>Ada</option>
         <option>Java</option>
         <option>JavaScript</option>
